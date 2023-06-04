@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Add User error</title>
+<title>Erro ao cadastrar</title>
 </head>
 <body>
 
