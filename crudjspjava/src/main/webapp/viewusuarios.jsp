@@ -7,7 +7,7 @@
 </head>
 <body>
 	<%@ page
-		import="br.com.wisewallet.dao.UsuarioDao, br.com.wisewallet.bean.Usuario, java.util.*"%>
+		import="com.crudjspjava.dao.UsuarioDao, com.crudjspjava.bean.Usuario, java.util.*"%>
 	<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 
 	<h1>Listagem de Usuários</h1>
