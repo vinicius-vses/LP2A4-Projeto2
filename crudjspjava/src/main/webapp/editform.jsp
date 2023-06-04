@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Edição do Usuário</title>
+<title>EdiÃ§Ã£o do UsuÃ¡rio</title>
 </head>
 <body>
 
@@ -15,7 +15,7 @@
 		Usuario usuario = UsuarioDao.getRegistroById(Integer.parseInt(id));
 	%>
 	
-	<h1>Edição do Usuário</h1>
+	<h1>EdiÃ§Ã£o do UsuÃ¡rio</h1>
 	
 	<form action="editusuario.jsp" method="post">
 		<input type="hidden" name="id" value="<%=usuario.getId()%>"/>
@@ -51,7 +51,7 @@
 				</td>
 			</tr>
 			<tr>
-				<td colspan="2"><input type="submit" value="Editar Usuário"></input></td>
+				<td colspan="2"><input type="submit" value="Editar UsuÃ¡rio"></input></td>
 			</tr>
 		</table>
 	</form>
