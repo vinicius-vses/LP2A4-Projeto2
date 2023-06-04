@@ -1,15 +1,16 @@
+
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8">
-<title>Visualiza??o de Usu?rios</title>
+<meta charset="ISO-8859-1">
+<title>Listagem de Usuários</title>
 </head>
 <body>
 	<%@ page
-		import="com.crudjspjava.dao.UsuarioDao, com.crudjspjava.bean.Usuario, java.util.*"%>
+		import="br.com.wisewallet.dao.UsuarioDao, br.com.wisewallet.bean.Usuario, java.util.*"%>
 	<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 
-	<h1>Listagem de Usu?rios</h1>
+	<h1>Listagem de Usuários</h1>
 
 	<%
 	List<Usuario> list = UsuarioDao.getAllUsuarios();
@@ -23,7 +24,7 @@
 			<th>Password</th>
 			<th>Email</th>
 			<th>Sexo</th>
-			<th>Pa?s</th>
+			<th>País</th>
 			<th>Editar</th>
 			<th>Excluir</th>
 		</tr>
@@ -42,6 +43,6 @@
 		</c:forEach>
 	</table>
 	<br>
-	<a href="addusuarioform.jsp">Adicionar novo usu?rio</a>
+	<a href="addusuarioform.jsp">Adicionar novo usuário</a>
 </body>
 </html>
